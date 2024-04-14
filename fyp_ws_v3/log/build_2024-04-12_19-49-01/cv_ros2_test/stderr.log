@@ -1,0 +1,5 @@
+  File "/home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/python3.10/site-packages/cv_ros2_test/object_detection_publisher.py", line 60
+    cam_y_pos = int(y) + image_offset_y[0]]
+                                          ^
+SyntaxError: unmatched ']'
+

@@ -1,0 +1,9 @@
+{
+  "package_name": "robotiq_3f_gripper_ros2_interfaces",
+  "non_idl_tuples": [
+    "/home/yanwen/fyp_ws_v3/src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_interfaces:msg/Robotiq3FGripperInputRegisters.msg",
+    "/home/yanwen/fyp_ws_v3/src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_interfaces:msg/Robotiq3FGripperOutputRegisters.msg",
+    "/home/yanwen/fyp_ws_v3/src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_interfaces:srv/Robotiq3FGripperOutputService.srv",
+    "/home/yanwen/fyp_ws_v3/src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_interfaces:action/Robotiq3FGripperOutputGoal.action"
+  ]
+}

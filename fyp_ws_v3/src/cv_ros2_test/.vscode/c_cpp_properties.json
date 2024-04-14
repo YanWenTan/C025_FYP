@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/yanwen/zed2_test/install/zed_topic_benchmark_component/include/**",
+        "/home/yanwen/zed2_test/install/zed_topic_benchmark_interfaces/include/**",
+        "/home/yanwen/zed2_test/install/zed_rgb_convert/include/**",
+        "/home/yanwen/zed2_test/install/zed_aruco_localization/include/**",
+        "/home/yanwen/zed2_test/install/zed_components/include/**",
+        "/home/yanwen/zed2_test/install/rviz_plugin_zed_od/include/**",
+        "/home/yanwen/zed2_test/install/zed_interfaces/include/**",
+        "/home/yanwen/zed2_test/install/robotiq_3f_gripper_ros2_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/yanwen/zed2_test/src/gripper_client/include/**",
+        "/home/yanwen/zed2_test/src/moveit_script/include/**",
+        "/home/yanwen/zed2_test/src/obj_detect_test/include/**",
+        "/home/yanwen/zed2_test/src/ur10_robotiq140/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

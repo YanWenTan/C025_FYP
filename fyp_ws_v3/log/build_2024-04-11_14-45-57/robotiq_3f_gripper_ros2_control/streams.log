@@ -1,0 +1,45 @@
+[0.550s] Invoking command in '/home/yanwen/fyp_ws_v3/src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_control': AMENT_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/prefix_override:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robotiq_3f_gripper_ros2_control build --build-base /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/build install --record /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/install.log --single-version-externally-managed
+[0.754s] running egg_info
+[0.754s] creating ../../../build/robotiq_3f_gripper_ros2_control/robotiq_3f_gripper_ros2_control.egg-info
+[0.754s] writing ../../../build/robotiq_3f_gripper_ros2_control/robotiq_3f_gripper_ros2_control.egg-info/PKG-INFO
+[0.754s] writing dependency_links to ../../../build/robotiq_3f_gripper_ros2_control/robotiq_3f_gripper_ros2_control.egg-info/dependency_links.txt
+[0.754s] writing entry points to ../../../build/robotiq_3f_gripper_ros2_control/robotiq_3f_gripper_ros2_control.egg-info/entry_points.txt
+[0.754s] writing requirements to ../../../build/robotiq_3f_gripper_ros2_control/robotiq_3f_gripper_ros2_control.egg-info/requires.txt
+[0.754s] writing top-level names to ../../../build/robotiq_3f_gripper_ros2_control/robotiq_3f_gripper_ros2_control.egg-info/top_level.txt
+[0.755s] writing manifest file '../../../build/robotiq_3f_gripper_ros2_control/robotiq_3f_gripper_ros2_control.egg-info/SOURCES.txt'
+[0.756s] reading manifest file '../../../build/robotiq_3f_gripper_ros2_control/robotiq_3f_gripper_ros2_control.egg-info/SOURCES.txt'
+[0.757s] writing manifest file '../../../build/robotiq_3f_gripper_ros2_control/robotiq_3f_gripper_ros2_control.egg-info/SOURCES.txt'
+[0.757s] running build
+[0.757s] running build_py
+[0.757s] creating /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/build
+[0.757s] creating /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/build/lib
+[0.757s] creating /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/build/lib/robotiq_3f_gripper_ros2_control
+[0.757s] copying robotiq_3f_gripper_ros2_control/control_action_server.py -> /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/build/lib/robotiq_3f_gripper_ros2_control
+[0.757s] copying robotiq_3f_gripper_ros2_control/control_listener_node.py -> /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/build/lib/robotiq_3f_gripper_ros2_control
+[0.757s] copying robotiq_3f_gripper_ros2_control/__init__.py -> /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/build/lib/robotiq_3f_gripper_ros2_control
+[0.757s] copying robotiq_3f_gripper_ros2_control/control_service_server.py -> /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/build/lib/robotiq_3f_gripper_ros2_control
+[0.757s] running install
+[0.757s] running install_lib
+[0.758s] creating /home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages/robotiq_3f_gripper_ros2_control
+[0.758s] copying /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/build/lib/robotiq_3f_gripper_ros2_control/control_action_server.py -> /home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages/robotiq_3f_gripper_ros2_control
+[0.758s] copying /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/build/lib/robotiq_3f_gripper_ros2_control/control_listener_node.py -> /home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages/robotiq_3f_gripper_ros2_control
+[0.758s] copying /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/build/lib/robotiq_3f_gripper_ros2_control/__init__.py -> /home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages/robotiq_3f_gripper_ros2_control
+[0.759s] copying /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/build/lib/robotiq_3f_gripper_ros2_control/control_service_server.py -> /home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages/robotiq_3f_gripper_ros2_control
+[0.759s] byte-compiling /home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages/robotiq_3f_gripper_ros2_control/control_action_server.py to control_action_server.cpython-310.pyc
+[0.760s] byte-compiling /home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages/robotiq_3f_gripper_ros2_control/control_listener_node.py to control_listener_node.cpython-310.pyc
+[0.761s] byte-compiling /home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages/robotiq_3f_gripper_ros2_control/__init__.py to __init__.cpython-310.pyc
+[0.761s] byte-compiling /home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages/robotiq_3f_gripper_ros2_control/control_service_server.py to control_service_server.cpython-310.pyc
+[0.762s] running install_data
+[0.762s] creating /home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/share/ament_index
+[0.762s] creating /home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/share/ament_index/resource_index
+[0.762s] creating /home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/share/ament_index/resource_index/packages
+[0.762s] copying resource/robotiq_3f_gripper_ros2_control -> /home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/share/ament_index/resource_index/packages
+[0.762s] copying package.xml -> /home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/share/robotiq_3f_gripper_ros2_control
+[0.762s] running install_egg_info
+[0.764s] Copying ../../../build/robotiq_3f_gripper_ros2_control/robotiq_3f_gripper_ros2_control.egg-info to /home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages/robotiq_3f_gripper_ros2_control-0.1.0-py3.10.egg-info
+[0.764s] running install_scripts
+[0.786s] Installing gripper_control_action_server script to /home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/robotiq_3f_gripper_ros2_control
+[0.787s] Installing gripper_control_listener_node script to /home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/robotiq_3f_gripper_ros2_control
+[0.787s] Installing gripper_control_service_server script to /home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/robotiq_3f_gripper_ros2_control
+[0.787s] writing list of installed files to '/home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/install.log'
+[0.822s] Invoked command in '/home/yanwen/fyp_ws_v3/src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/prefix_override:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robotiq_3f_gripper_ros2_control build --build-base /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/build install --record /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/install.log --single-version-externally-managed

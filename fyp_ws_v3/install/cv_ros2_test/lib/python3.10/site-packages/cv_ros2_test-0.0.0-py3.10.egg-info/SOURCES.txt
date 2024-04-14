@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/cv_ros2_test/cv_ros2_test.egg-info/PKG-INFO
+../../build/cv_ros2_test/cv_ros2_test.egg-info/SOURCES.txt
+../../build/cv_ros2_test/cv_ros2_test.egg-info/dependency_links.txt
+../../build/cv_ros2_test/cv_ros2_test.egg-info/entry_points.txt
+../../build/cv_ros2_test/cv_ros2_test.egg-info/requires.txt
+../../build/cv_ros2_test/cv_ros2_test.egg-info/top_level.txt
+../../build/cv_ros2_test/cv_ros2_test.egg-info/zip-safe
+cv_ros2_test/__init__.py
+cv_ros2_test/object_detection_publisher.py
+cv_ros2_test/object_pose_transform.py
+resource/cv_ros2_test
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

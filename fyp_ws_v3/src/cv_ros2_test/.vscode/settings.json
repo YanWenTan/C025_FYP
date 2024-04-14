@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/yanwen/zed2_test/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages",
+        "/home/yanwen/zed2_test/install/zed_interfaces/local/lib/python3.10/dist-packages",
+        "/home/yanwen/zed2_test/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages",
+        "/home/yanwen/zed2_test/install/robotiq_3f_gripper_ros2_interfaces/local/lib/python3.10/dist-packages",
+        "/home/yanwen/zed2_test/install/cv_ros2_test/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/yanwen/zed2_test/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages",
+        "/home/yanwen/zed2_test/install/zed_interfaces/local/lib/python3.10/dist-packages",
+        "/home/yanwen/zed2_test/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages",
+        "/home/yanwen/zed2_test/install/robotiq_3f_gripper_ros2_interfaces/local/lib/python3.10/dist-packages",
+        "/home/yanwen/zed2_test/install/cv_ros2_test/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

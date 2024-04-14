@@ -1,0 +1,20 @@
+[0.269s] Invoking command in '/home/yanwen/fyp_ws_v3/build/obj_detect_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/obj_detect_test -- -j8 -l8
+[0.294s] Invoked command in '/home/yanwen/fyp_ws_v3/build/obj_detect_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/obj_detect_test -- -j8 -l8
+[0.319s] Invoking command in '/home/yanwen/fyp_ws_v3/build/obj_detect_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/obj_detect_test
+[0.326s] -- Install configuration: ""
+[0.326s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/ament_index/resource_index/package_run_dependencies/obj_detect_test
+[0.326s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/ament_index/resource_index/parent_prefix_path/obj_detect_test
+[0.327s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/environment/ament_prefix_path.sh
+[0.327s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/environment/ament_prefix_path.dsv
+[0.327s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/environment/path.sh
+[0.327s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/environment/path.dsv
+[0.327s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/local_setup.bash
+[0.327s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/local_setup.sh
+[0.327s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/local_setup.zsh
+[0.327s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/local_setup.dsv
+[0.327s] -- Installing: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/package.dsv
+[0.327s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/ament_index/resource_index/packages/obj_detect_test
+[0.327s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/cmake/obj_detect_testConfig.cmake
+[0.327s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/cmake/obj_detect_testConfig-version.cmake
+[0.328s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/package.xml
+[0.329s] Invoked command in '/home/yanwen/fyp_ws_v3/build/obj_detect_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/obj_detect_test

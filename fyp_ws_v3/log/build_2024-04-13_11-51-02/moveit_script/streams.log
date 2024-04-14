@@ -1,0 +1,26 @@
+[0.203s] Invoking command in '/home/yanwen/fyp_ws_v3/build/moveit_script': AMENT_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/local/lib/python3.10/dist-packages:/home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/moveit_script -- -j8 -l8
+[0.692s] [100%] Built target moveit_script
+[0.700s] Invoked command in '/home/yanwen/fyp_ws_v3/build/moveit_script' returned '0': AMENT_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/local/lib/python3.10/dist-packages:/home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/moveit_script -- -j8 -l8
+[0.718s] Invoking command in '/home/yanwen/fyp_ws_v3/build/moveit_script': AMENT_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/local/lib/python3.10/dist-packages:/home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/moveit_script
+[0.724s] -- Install configuration: ""
+[0.777s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/lib/moveit_script/moveit_script
+[0.777s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/launch
+[0.785s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/launch/setup_init.launch.py
+[0.785s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/launch/moveit.launch.py
+[0.785s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/launch/obj_detection.launch.py
+[0.786s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/ament_index/resource_index/package_run_dependencies/moveit_script
+[0.787s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/ament_index/resource_index/parent_prefix_path/moveit_script
+[0.787s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/environment/ament_prefix_path.sh
+[0.787s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/environment/ament_prefix_path.dsv
+[0.787s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/environment/path.sh
+[0.787s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/environment/path.dsv
+[0.788s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/local_setup.bash
+[0.788s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/local_setup.sh
+[0.788s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/local_setup.zsh
+[0.788s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/local_setup.dsv
+[0.788s] -- Installing: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/package.dsv
+[0.829s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/ament_index/resource_index/packages/moveit_script
+[0.830s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/cmake/moveit_scriptConfig.cmake
+[0.830s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/cmake/moveit_scriptConfig-version.cmake
+[0.830s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/package.xml
+[0.837s] Invoked command in '/home/yanwen/fyp_ws_v3/build/moveit_script' returned '0': AMENT_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/local/lib/python3.10/dist-packages:/home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/moveit_script

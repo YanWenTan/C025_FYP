@@ -1,0 +1,765 @@
+[0.244s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.245s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x73d5185eb190>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73d5185eab00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73d5185eab00>>, mixin_verb=('build',))
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.259s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yanwen/fyp_ws_v3'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_ros2_test) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_ros2_test) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_ros2_test) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_ros2_test) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_ros2_test) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_ros2_test) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_ros2_test) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_ros2_test) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_ros2_test) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cv_ros2_test' with type 'ros.ament_python' and name 'cv_ros2_test'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_client) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_client) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_client) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_client) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_client) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_client) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_client) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_client) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_client) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gripper_client' with type 'ros.ament_cmake' and name 'gripper_client'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_script) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_script) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_script) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_script) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_script) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_script) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_script) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_script) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_script) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_script' with type 'ros.ament_cmake' and name 'moveit_script'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/obj_detect_test) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/obj_detect_test) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/obj_detect_test) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/obj_detect_test) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/obj_detect_test) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/obj_detect_test) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/obj_detect_test) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/obj_detect_test) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/obj_detect_test) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/obj_detect_test' with type 'ros.ament_cmake' and name 'obj_detect_test'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_control) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_control) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_control) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_control) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_control) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_control) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_control) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_control) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_control' with type 'ros.ament_python' and name 'robotiq_3f_gripper_ros2_control'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_interfaces) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_interfaces) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_interfaces) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_interfaces) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_interfaces) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_interfaces) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_interfaces) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_interfaces) by extension 'ros'
+[0.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_interfaces' with type 'ros.ament_cmake' and name 'robotiq_3f_gripper_ros2_interfaces'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'ros'
+[0.275s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zed-ros2-wrapper/zed-ros2-interfaces' with type 'ros.ament_cmake' and name 'zed_interfaces'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zed-ros2-wrapper/zed_components' with type 'ros.ament_cmake' and name 'zed_components'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zed-ros2-wrapper/zed_ros2' with type 'ros.ament_cmake' and name 'zed_ros2'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zed-ros2-wrapper/zed_wrapper' with type 'ros.ament_cmake' and name 'zed_wrapper'
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.295s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/yanwen/fyp_ws_v3/install
+[0.296s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 412 installed packages in /opt/ros/humble
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'cv_ros2_test' build argument 'cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'cv_ros2_test' build argument 'cmake_target' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'cv_ros2_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'cv_ros2_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'cv_ros2_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'cv_ros2_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'cv_ros2_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'cv_ros2_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'cv_ros2_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.345s] DEBUG:colcon.colcon_core.verb:Building package 'cv_ros2_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yanwen/fyp_ws_v3/build/cv_ros2_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yanwen/fyp_ws_v3/install/cv_ros2_test', 'merge_install': False, 'path': '/home/yanwen/fyp_ws_v3/src/cv_ros2_test', 'symlink_install': False, 'test_result_base': None}
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'obj_detect_test' build argument 'cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'obj_detect_test' build argument 'cmake_target' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'obj_detect_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'obj_detect_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'obj_detect_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'obj_detect_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'obj_detect_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'obj_detect_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'obj_detect_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.346s] DEBUG:colcon.colcon_core.verb:Building package 'obj_detect_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yanwen/fyp_ws_v3/build/obj_detect_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yanwen/fyp_ws_v3/install/obj_detect_test', 'merge_install': False, 'path': '/home/yanwen/fyp_ws_v3/src/obj_detect_test', 'symlink_install': False, 'test_result_base': None}
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_ros2_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_ros2_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_ros2_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_ros2_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_ros2_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_ros2_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_ros2_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_ros2_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_ros2_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.346s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_3f_gripper_ros2_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces', 'merge_install': False, 'path': '/home/yanwen/fyp_ws_v3/src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.347s] DEBUG:colcon.colcon_core.verb:Building package 'zed_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yanwen/fyp_ws_v3/build/zed_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yanwen/fyp_ws_v3/install/zed_interfaces', 'merge_install': False, 'path': '/home/yanwen/fyp_ws_v3/src/zed-ros2-wrapper/zed-ros2-interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'gripper_client' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'gripper_client' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'gripper_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'gripper_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'gripper_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'gripper_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'gripper_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'gripper_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'gripper_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'gripper_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yanwen/fyp_ws_v3/build/gripper_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yanwen/fyp_ws_v3/install/gripper_client', 'merge_install': False, 'path': '/home/yanwen/fyp_ws_v3/src/gripper_client', 'symlink_install': False, 'test_result_base': None}
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'moveit_script' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'moveit_script' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'moveit_script' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'moveit_script' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'moveit_script' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'moveit_script' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'moveit_script' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'moveit_script' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'moveit_script' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_script' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yanwen/fyp_ws_v3/build/moveit_script', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yanwen/fyp_ws_v3/install/moveit_script', 'merge_install': False, 'path': '/home/yanwen/fyp_ws_v3/src/moveit_script', 'symlink_install': False, 'test_result_base': None}
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_ros2_control' build argument 'cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.349s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_3f_gripper_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control', 'merge_install': False, 'path': '/home/yanwen/fyp_ws_v3/src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_target' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_clean_cache' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_clean_first' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_force_configure' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'ament_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'catkin_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.350s] DEBUG:colcon.colcon_core.verb:Building package 'zed_components' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yanwen/fyp_ws_v3/build/zed_components', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yanwen/fyp_ws_v3/install/zed_components', 'merge_install': False, 'path': '/home/yanwen/fyp_ws_v3/src/zed-ros2-wrapper/zed_components', 'symlink_install': False, 'test_result_base': None}
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_target' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_clean_cache' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_clean_first' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_force_configure' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'ament_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'catkin_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.351s] DEBUG:colcon.colcon_core.verb:Building package 'zed_wrapper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yanwen/fyp_ws_v3/build/zed_wrapper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yanwen/fyp_ws_v3/install/zed_wrapper', 'merge_install': False, 'path': '/home/yanwen/fyp_ws_v3/src/zed-ros2-wrapper/zed_wrapper', 'symlink_install': False, 'test_result_base': None}
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_target' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.351s] DEBUG:colcon.colcon_core.verb:Building package 'zed_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yanwen/fyp_ws_v3/build/zed_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yanwen/fyp_ws_v3/install/zed_ros2', 'merge_install': False, 'path': '/home/yanwen/fyp_ws_v3/src/zed-ros2-wrapper/zed_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.352s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.354s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.354s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yanwen/fyp_ws_v3/src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_interfaces' with build type 'ament_cmake'
+[0.354s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yanwen/fyp_ws_v3/src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_interfaces'
+[0.357s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.360s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yanwen/fyp_ws_v3/src/zed-ros2-wrapper/zed-ros2-interfaces' with build type 'ament_cmake'
+[0.360s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yanwen/fyp_ws_v3/src/zed-ros2-wrapper/zed-ros2-interfaces'
+[0.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.365s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yanwen/fyp_ws_v3/src/cv_ros2_test' with build type 'ament_python'
+[0.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_ros2_test', 'ament_prefix_path')
+[0.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/cv_ros2_test/share/cv_ros2_test/hook/ament_prefix_path.ps1'
+[0.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/cv_ros2_test/share/cv_ros2_test/hook/ament_prefix_path.dsv'
+[0.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/cv_ros2_test/share/cv_ros2_test/hook/ament_prefix_path.sh'
+[0.368s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.368s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.372s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yanwen/fyp_ws_v3/src/obj_detect_test' with build type 'ament_cmake'
+[0.373s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yanwen/fyp_ws_v3/src/obj_detect_test'
+[0.373s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.373s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_interfaces -- -j8 -l8
+[0.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanwen/fyp_ws_v3/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/zed_interfaces -- -j8 -l8
+[0.648s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yanwen/fyp_ws_v3/src/cv_ros2_test'
+[0.649s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.649s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanwen/fyp_ws_v3/build/obj_detect_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/obj_detect_test -- -j8 -l8
+[0.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanwen/fyp_ws_v3/build/obj_detect_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/obj_detect_test -- -j8 -l8
+[0.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanwen/fyp_ws_v3/build/obj_detect_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/obj_detect_test
+[0.720s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obj_detect_test)
+[0.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanwen/fyp_ws_v3/build/obj_detect_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/obj_detect_test
+[0.724s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/obj_detect_test' for CMake module files
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/obj_detect_test' for CMake config files
+[0.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('obj_detect_test', 'cmake_prefix_path')
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/hook/cmake_prefix_path.ps1'
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/hook/cmake_prefix_path.dsv'
+[0.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/hook/cmake_prefix_path.sh'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/obj_detect_test/bin'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/obj_detect_test/lib/pkgconfig/obj_detect_test.pc'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/obj_detect_test/lib/python3.10/site-packages'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/obj_detect_test/bin'
+[0.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/package.ps1'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/package.dsv'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/package.sh'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/package.bash'
+[0.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/package.zsh'
+[0.733s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/colcon-core/packages/obj_detect_test)
+[0.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_interfaces -- -j8 -l8
+[0.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanwen/fyp_ws_v3/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/zed_interfaces -- -j8 -l8
+[0.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obj_detect_test)
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/obj_detect_test' for CMake module files
+[0.755s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/obj_detect_test' for CMake config files
+[0.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('obj_detect_test', 'cmake_prefix_path')
+[0.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/hook/cmake_prefix_path.ps1'
+[0.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/hook/cmake_prefix_path.dsv'
+[0.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/hook/cmake_prefix_path.sh'
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/obj_detect_test/bin'
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/obj_detect_test/lib/pkgconfig/obj_detect_test.pc'
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/obj_detect_test/lib/python3.10/site-packages'
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/obj_detect_test/bin'
+[0.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/package.ps1'
+[0.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/package.dsv'
+[0.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/package.sh'
+[0.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/package.bash'
+[0.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/package.zsh'
+[0.761s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/colcon-core/packages/obj_detect_test)
+[0.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_interfaces
+[0.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_3f_gripper_ros2_interfaces)
+[0.858s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces' for CMake module files
+[0.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_interfaces
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces' for CMake config files
+[0.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_3f_gripper_ros2_interfaces', 'cmake_prefix_path')
+[0.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/hook/cmake_prefix_path.ps1'
+[0.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/hook/cmake_prefix_path.dsv'
+[0.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/hook/cmake_prefix_path.sh'
+[0.861s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib'
+[0.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_3f_gripper_ros2_interfaces', 'ld_library_path_lib')
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/hook/ld_library_path_lib.ps1'
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/hook/ld_library_path_lib.dsv'
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/hook/ld_library_path_lib.sh'
+[0.863s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/bin'
+[0.863s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib/pkgconfig/robotiq_3f_gripper_ros2_interfaces.pc'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib/python3.10/site-packages'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/bin'
+[0.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/package.ps1'
+[0.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/package.dsv'
+[0.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/package.sh'
+[0.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/package.bash'
+[0.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/package.zsh'
+[0.866s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/colcon-core/packages/robotiq_3f_gripper_ros2_interfaces)
+[0.950s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_3f_gripper_ros2_interfaces)
+[0.952s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces' for CMake module files
+[0.952s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces' for CMake config files
+[0.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_3f_gripper_ros2_interfaces', 'cmake_prefix_path')
+[0.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/hook/cmake_prefix_path.ps1'
+[0.954s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/hook/cmake_prefix_path.dsv'
+[0.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/hook/cmake_prefix_path.sh'
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib'
+[0.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_3f_gripper_ros2_interfaces', 'ld_library_path_lib')
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/hook/ld_library_path_lib.ps1'
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/hook/ld_library_path_lib.dsv'
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/hook/ld_library_path_lib.sh'
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/bin'
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib/pkgconfig/robotiq_3f_gripper_ros2_interfaces.pc'
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib/python3.10/site-packages'
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/bin'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/package.ps1'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/package.dsv'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/package.sh'
+[0.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/package.bash'
+[0.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/robotiq_3f_gripper_ros2_interfaces/package.zsh'
+[0.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/share/colcon-core/packages/robotiq_3f_gripper_ros2_interfaces)
+[0.960s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yanwen/fyp_ws_v3/src/gripper_client' with build type 'ament_cmake'
+[0.960s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yanwen/fyp_ws_v3/src/gripper_client'
+[0.961s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.961s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.966s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yanwen/fyp_ws_v3/src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_control' with build type 'ament_python'
+[0.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_3f_gripper_ros2_control', 'ament_prefix_path')
+[0.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/share/robotiq_3f_gripper_ros2_control/hook/ament_prefix_path.ps1'
+[0.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/share/robotiq_3f_gripper_ros2_control/hook/ament_prefix_path.dsv'
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/share/robotiq_3f_gripper_ros2_control/hook/ament_prefix_path.sh'
+[0.971s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.971s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanwen/fyp_ws_v3/build/gripper_client': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:/home/yanwen/fyp_ws_v3/install/zed_components/lib:/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/gripper_client -- -j8 -l8
+[1.177s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yanwen/fyp_ws_v3/src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_control'
+[1.178s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.179s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanwen/fyp_ws_v3/src/cv_ros2_test': PYTHONPATH=/home/yanwen/fyp_ws_v3/build/cv_ros2_test/prefix_override:/home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_ros2_test build --build-base /home/yanwen/fyp_ws_v3/build/cv_ros2_test/build install --record /home/yanwen/fyp_ws_v3/build/cv_ros2_test/install.log --single-version-externally-managed
+[1.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanwen/fyp_ws_v3/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/zed_interfaces
+[1.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanwen/fyp_ws_v3/build/gripper_client' returned '0': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:/home/yanwen/fyp_ws_v3/install/zed_components/lib:/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/gripper_client -- -j8 -l8
+[1.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanwen/fyp_ws_v3/build/gripper_client': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:/home/yanwen/fyp_ws_v3/install/zed_components/lib:/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/gripper_client
+[1.218s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gripper_client)
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/gripper_client' for CMake module files
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/gripper_client' for CMake config files
+[1.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('gripper_client', 'cmake_prefix_path')
+[1.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/hook/cmake_prefix_path.ps1'
+[1.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/hook/cmake_prefix_path.dsv'
+[1.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/hook/cmake_prefix_path.sh'
+[1.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanwen/fyp_ws_v3/build/gripper_client' returned '0': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:/home/yanwen/fyp_ws_v3/install/zed_components/lib:/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/gripper_client
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/gripper_client/lib'
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/gripper_client/bin'
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/gripper_client/lib/pkgconfig/gripper_client.pc'
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/gripper_client/lib/python3.10/site-packages'
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/gripper_client/bin'
+[1.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/package.ps1'
+[1.227s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/package.dsv'
+[1.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/package.sh'
+[1.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/package.bash'
+[1.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/package.zsh'
+[1.228s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanwen/fyp_ws_v3/install/gripper_client/share/colcon-core/packages/gripper_client)
+[1.236s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_interfaces)
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_interfaces' for CMake module files
+[1.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanwen/fyp_ws_v3/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/zed_interfaces
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_interfaces' for CMake config files
+[1.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_interfaces', 'cmake_prefix_path')
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.ps1'
+[1.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.dsv'
+[1.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.sh'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib'
+[1.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_interfaces', 'ld_library_path_lib')
+[1.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.ps1'
+[1.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.dsv'
+[1.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.sh'
+[1.247s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_interfaces/bin'
+[1.247s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/pkgconfig/zed_interfaces.pc'
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/python3.10/site-packages'
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_interfaces/bin'
+[1.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/package.ps1'
+[1.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/package.dsv'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/package.sh'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/package.bash'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/package.zsh'
+[1.252s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/colcon-core/packages/zed_interfaces)
+[1.255s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gripper_client)
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/gripper_client' for CMake module files
+[1.258s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/gripper_client' for CMake config files
+[1.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('gripper_client', 'cmake_prefix_path')
+[1.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/hook/cmake_prefix_path.ps1'
+[1.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/hook/cmake_prefix_path.dsv'
+[1.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/hook/cmake_prefix_path.sh'
+[1.261s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/gripper_client/lib'
+[1.261s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/gripper_client/bin'
+[1.261s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/gripper_client/lib/pkgconfig/gripper_client.pc'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/gripper_client/lib/python3.10/site-packages'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/gripper_client/bin'
+[1.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/package.ps1'
+[1.264s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/package.dsv'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/package.sh'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/package.bash'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/package.zsh'
+[1.266s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanwen/fyp_ws_v3/install/gripper_client/share/colcon-core/packages/gripper_client)
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/cv_ros2_test' for CMake module files
+[1.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanwen/fyp_ws_v3/src/cv_ros2_test' returned '0': PYTHONPATH=/home/yanwen/fyp_ws_v3/build/cv_ros2_test/prefix_override:/home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_ros2_test build --build-base /home/yanwen/fyp_ws_v3/build/cv_ros2_test/build install --record /home/yanwen/fyp_ws_v3/build/cv_ros2_test/install.log --single-version-externally-managed
+[1.454s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/cv_ros2_test' for CMake config files
+[1.454s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib'
+[1.454s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/cv_ros2_test/bin'
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/pkgconfig/cv_ros2_test.pc'
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/python3.10/site-packages'
+[1.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_ros2_test', 'pythonpath')
+[1.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/cv_ros2_test/share/cv_ros2_test/hook/pythonpath.ps1'
+[1.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/cv_ros2_test/share/cv_ros2_test/hook/pythonpath.dsv'
+[1.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/cv_ros2_test/share/cv_ros2_test/hook/pythonpath.sh'
+[1.457s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/cv_ros2_test/bin'
+[1.457s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_ros2_test)
+[1.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/cv_ros2_test/share/cv_ros2_test/package.ps1'
+[1.459s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanwen/fyp_ws_v3/install/cv_ros2_test/share/cv_ros2_test/package.dsv'
+[1.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/cv_ros2_test/share/cv_ros2_test/package.sh'
+[1.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/cv_ros2_test/share/cv_ros2_test/package.bash'
+[1.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/cv_ros2_test/share/cv_ros2_test/package.zsh'
+[1.459s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanwen/fyp_ws_v3/install/cv_ros2_test/share/colcon-core/packages/cv_ros2_test)
+[1.460s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yanwen/fyp_ws_v3/src/moveit_script' with build type 'ament_cmake'
+[1.460s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yanwen/fyp_ws_v3/src/moveit_script'
+[1.461s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.461s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanwen/fyp_ws_v3/build/moveit_script': AMENT_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/opt/ros/humble CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:/home/yanwen/fyp_ws_v3/install/zed_components/lib:/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/python3.10/site-packages:/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/moveit_script -- -j8 -l8
+[1.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_interfaces)
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_interfaces' for CMake module files
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_interfaces' for CMake config files
+[1.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_interfaces', 'cmake_prefix_path')
+[1.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.ps1'
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.dsv'
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.sh'
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib'
+[1.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_interfaces', 'ld_library_path_lib')
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.ps1'
+[1.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.dsv'
+[1.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.sh'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_interfaces/bin'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/pkgconfig/zed_interfaces.pc'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/python3.10/site-packages'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_interfaces/bin'
+[1.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/package.ps1'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/package.dsv'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/package.sh'
+[1.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/package.bash'
+[1.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/package.zsh'
+[1.519s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanwen/fyp_ws_v3/install/zed_interfaces/share/colcon-core/packages/zed_interfaces)
+[1.519s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yanwen/fyp_ws_v3/src/zed-ros2-wrapper/zed_components' with build type 'ament_cmake'
+[1.519s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yanwen/fyp_ws_v3/src/zed-ros2-wrapper/zed_components'
+[1.521s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.521s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanwen/fyp_ws_v3/build/moveit_script' returned '0': AMENT_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/opt/ros/humble CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:/home/yanwen/fyp_ws_v3/install/zed_components/lib:/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/python3.10/site-packages:/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/moveit_script -- -j8 -l8
+[1.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanwen/fyp_ws_v3/build/zed_components': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib:/home/yanwen/fyp_ws_v3/install/zed_components/lib:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/zed_components -- -j8 -l8
+[1.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanwen/fyp_ws_v3/src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_control': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/obj_detect_test LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:/home/yanwen/fyp_ws_v3/install/zed_components/lib:/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/prefix_override:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robotiq_3f_gripper_ros2_control build --build-base /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/build install --record /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/install.log --single-version-externally-managed
+[1.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanwen/fyp_ws_v3/build/moveit_script': AMENT_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/opt/ros/humble CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:/home/yanwen/fyp_ws_v3/install/zed_components/lib:/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/python3.10/site-packages:/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/moveit_script
+[1.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_script)
+[1.563s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/moveit_script' for CMake module files
+[1.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanwen/fyp_ws_v3/build/moveit_script' returned '0': AMENT_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/opt/ros/humble CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:/home/yanwen/fyp_ws_v3/install/zed_components/lib:/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/python3.10/site-packages:/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/moveit_script
+[1.564s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/moveit_script' for CMake config files
+[1.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_script', 'cmake_prefix_path')
+[1.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/hook/cmake_prefix_path.ps1'
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/hook/cmake_prefix_path.dsv'
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/hook/cmake_prefix_path.sh'
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/moveit_script/lib'
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/moveit_script/bin'
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/moveit_script/lib/pkgconfig/moveit_script.pc'
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/moveit_script/lib/python3.10/site-packages'
+[1.567s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/moveit_script/bin'
+[1.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/package.ps1'
+[1.568s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/package.dsv'
+[1.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/package.sh'
+[1.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/package.bash'
+[1.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/package.zsh'
+[1.569s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanwen/fyp_ws_v3/install/moveit_script/share/colcon-core/packages/moveit_script)
+[1.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_script)
+[1.592s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/moveit_script' for CMake module files
+[1.592s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/moveit_script' for CMake config files
+[1.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_script', 'cmake_prefix_path')
+[1.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/hook/cmake_prefix_path.ps1'
+[1.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/hook/cmake_prefix_path.dsv'
+[1.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/hook/cmake_prefix_path.sh'
+[1.596s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/moveit_script/lib'
+[1.596s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/moveit_script/bin'
+[1.596s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/moveit_script/lib/pkgconfig/moveit_script.pc'
+[1.596s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/moveit_script/lib/python3.10/site-packages'
+[1.596s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/moveit_script/bin'
+[1.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/package.ps1'
+[1.598s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/package.dsv'
+[1.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/package.sh'
+[1.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/package.bash'
+[1.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/package.zsh'
+[1.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanwen/fyp_ws_v3/install/moveit_script/share/colcon-core/packages/moveit_script)
+[1.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanwen/fyp_ws_v3/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib:/home/yanwen/fyp_ws_v3/install/zed_components/lib:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/zed_components -- -j8 -l8
+[1.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanwen/fyp_ws_v3/build/zed_components': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib:/home/yanwen/fyp_ws_v3/install/zed_components/lib:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/zed_components
+[1.631s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_components)
+[1.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanwen/fyp_ws_v3/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib:/home/yanwen/fyp_ws_v3/install/zed_components/lib:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/zed_components
+[1.634s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_components' for CMake module files
+[1.635s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_components' for CMake config files
+[1.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_components', 'cmake_prefix_path')
+[1.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/hook/cmake_prefix_path.ps1'
+[1.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/hook/cmake_prefix_path.dsv'
+[1.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/hook/cmake_prefix_path.sh'
+[1.638s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_components/lib'
+[1.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_components', 'ld_library_path_lib')
+[1.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/hook/ld_library_path_lib.ps1'
+[1.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/hook/ld_library_path_lib.dsv'
+[1.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/hook/ld_library_path_lib.sh'
+[1.640s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_components/bin'
+[1.640s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_components/lib/pkgconfig/zed_components.pc'
+[1.641s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_components/lib/python3.10/site-packages'
+[1.641s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_components/bin'
+[1.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/package.ps1'
+[1.643s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/package.dsv'
+[1.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/package.sh'
+[1.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/package.bash'
+[1.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/package.zsh'
+[1.644s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanwen/fyp_ws_v3/install/zed_components/share/colcon-core/packages/zed_components)
+[1.668s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_components)
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_components' for CMake module files
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_components' for CMake config files
+[1.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_components', 'cmake_prefix_path')
+[1.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/hook/cmake_prefix_path.ps1'
+[1.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/hook/cmake_prefix_path.dsv'
+[1.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/hook/cmake_prefix_path.sh'
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_components/lib'
+[1.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_components', 'ld_library_path_lib')
+[1.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/hook/ld_library_path_lib.ps1'
+[1.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/hook/ld_library_path_lib.dsv'
+[1.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/hook/ld_library_path_lib.sh'
+[1.674s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_components/bin'
+[1.674s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_components/lib/pkgconfig/zed_components.pc'
+[1.674s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_components/lib/python3.10/site-packages'
+[1.674s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_components/bin'
+[1.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/package.ps1'
+[1.676s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/package.dsv'
+[1.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/package.sh'
+[1.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/package.bash'
+[1.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/package.zsh'
+[1.677s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanwen/fyp_ws_v3/install/zed_components/share/colcon-core/packages/zed_components)
+[1.677s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yanwen/fyp_ws_v3/src/zed-ros2-wrapper/zed_wrapper' with build type 'ament_cmake'
+[1.677s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yanwen/fyp_ws_v3/src/zed-ros2-wrapper/zed_wrapper'
+[1.678s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.678s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanwen/fyp_ws_v3/build/zed_wrapper': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/zed_wrapper -- -j8 -l8
+[1.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanwen/fyp_ws_v3/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/zed_wrapper -- -j8 -l8
+[1.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanwen/fyp_ws_v3/build/zed_wrapper': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/zed_wrapper
+[1.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_wrapper)
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_wrapper' for CMake module files
+[1.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanwen/fyp_ws_v3/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/zed_wrapper
+[1.774s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_wrapper' for CMake config files
+[1.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_wrapper', 'cmake_prefix_path')
+[1.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.ps1'
+[1.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.dsv'
+[1.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.sh'
+[1.776s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_wrapper/lib'
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_wrapper/bin'
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_wrapper/lib/pkgconfig/zed_wrapper.pc'
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_wrapper/lib/python3.10/site-packages'
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_wrapper/bin'
+[1.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/package.ps1'
+[1.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/package.dsv'
+[1.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/package.sh'
+[1.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/package.bash'
+[1.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/package.zsh'
+[1.779s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanwen/fyp_ws_v3/install/zed_wrapper/share/colcon-core/packages/zed_wrapper)
+[1.797s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control' for CMake module files
+[1.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanwen/fyp_ws_v3/src/robotiq_3f_gripper_ros2_stack/robotiq_3f_gripper_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/obj_detect_test LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:/home/yanwen/fyp_ws_v3/install/zed_components/lib:/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/prefix_override:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robotiq_3f_gripper_ros2_control build --build-base /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/build install --record /home/yanwen/fyp_ws_v3/build/robotiq_3f_gripper_ros2_control/install.log --single-version-externally-managed
+[1.798s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control' for CMake config files
+[1.798s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib'
+[1.798s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/bin'
+[1.798s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/pkgconfig/robotiq_3f_gripper_ros2_control.pc'
+[1.799s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages'
+[1.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_3f_gripper_ros2_control', 'pythonpath')
+[1.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/share/robotiq_3f_gripper_ros2_control/hook/pythonpath.ps1'
+[1.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/share/robotiq_3f_gripper_ros2_control/hook/pythonpath.dsv'
+[1.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/share/robotiq_3f_gripper_ros2_control/hook/pythonpath.sh'
+[1.801s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/bin'
+[1.801s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_3f_gripper_ros2_control)
+[1.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/share/robotiq_3f_gripper_ros2_control/package.ps1'
+[1.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/share/robotiq_3f_gripper_ros2_control/package.dsv'
+[1.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/share/robotiq_3f_gripper_ros2_control/package.sh'
+[1.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/share/robotiq_3f_gripper_ros2_control/package.bash'
+[1.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/share/robotiq_3f_gripper_ros2_control/package.zsh'
+[1.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control/share/colcon-core/packages/robotiq_3f_gripper_ros2_control)
+[1.804s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_wrapper)
+[1.806s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_wrapper' for CMake module files
+[1.806s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_wrapper' for CMake config files
+[1.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_wrapper', 'cmake_prefix_path')
+[1.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.ps1'
+[1.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.dsv'
+[1.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.sh'
+[1.808s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_wrapper/lib'
+[1.808s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_wrapper/bin'
+[1.808s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_wrapper/lib/pkgconfig/zed_wrapper.pc'
+[1.808s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_wrapper/lib/python3.10/site-packages'
+[1.808s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_wrapper/bin'
+[1.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/package.ps1'
+[1.809s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/package.dsv'
+[1.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/package.sh'
+[1.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/package.bash'
+[1.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/package.zsh'
+[1.810s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanwen/fyp_ws_v3/install/zed_wrapper/share/colcon-core/packages/zed_wrapper)
+[1.810s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yanwen/fyp_ws_v3/src/zed-ros2-wrapper/zed_ros2' with build type 'ament_cmake'
+[1.810s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yanwen/fyp_ws_v3/src/zed-ros2-wrapper/zed_ros2'
+[1.811s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.811s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanwen/fyp_ws_v3/build/zed_ros2': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/zed_ros2 -- -j8 -l8
+[1.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanwen/fyp_ws_v3/build/zed_ros2' returned '0': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/zed_ros2 -- -j8 -l8
+[1.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanwen/fyp_ws_v3/build/zed_ros2': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/zed_ros2
+[1.880s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_ros2)
+[1.882s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_ros2' for CMake module files
+[1.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanwen/fyp_ws_v3/build/zed_ros2' returned '0': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/zed_ros2
+[1.883s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_ros2' for CMake config files
+[1.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_ros2', 'cmake_prefix_path')
+[1.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.ps1'
+[1.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.dsv'
+[1.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.sh'
+[1.885s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_ros2/bin'
+[1.885s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_ros2/lib/pkgconfig/zed_ros2.pc'
+[1.885s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_ros2/lib/python3.10/site-packages'
+[1.885s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_ros2/bin'
+[1.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_ros2/share/zed_ros2/package.ps1'
+[1.887s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanwen/fyp_ws_v3/install/zed_ros2/share/zed_ros2/package.dsv'
+[1.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_ros2/share/zed_ros2/package.sh'
+[1.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_ros2/share/zed_ros2/package.bash'
+[1.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_ros2/share/zed_ros2/package.zsh'
+[1.888s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanwen/fyp_ws_v3/install/zed_ros2/share/colcon-core/packages/zed_ros2)
+[1.905s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_ros2)
+[1.906s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_ros2' for CMake module files
+[1.906s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_ros2' for CMake config files
+[1.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_ros2', 'cmake_prefix_path')
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.ps1'
+[1.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanwen/fyp_ws_v3/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.dsv'
+[1.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanwen/fyp_ws_v3/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.sh'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_ros2/bin'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_ros2/lib/pkgconfig/zed_ros2.pc'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_ros2/lib/python3.10/site-packages'
+[1.909s] Level 1:colcon.colcon_core.environment:checking '/home/yanwen/fyp_ws_v3/install/zed_ros2/bin'
+[1.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_ros2/share/zed_ros2/package.ps1'
+[1.910s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanwen/fyp_ws_v3/install/zed_ros2/share/zed_ros2/package.dsv'
+[1.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_ros2/share/zed_ros2/package.sh'
+[1.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_ros2/share/zed_ros2/package.bash'
+[1.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanwen/fyp_ws_v3/install/zed_ros2/share/zed_ros2/package.zsh'
+[1.911s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanwen/fyp_ws_v3/install/zed_ros2/share/colcon-core/packages/zed_ros2)
+[1.911s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.911s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.911s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.911s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.915s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.915s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.915s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.924s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.925s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yanwen/fyp_ws_v3/install/local_setup.ps1'
+[1.927s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yanwen/fyp_ws_v3/install/_local_setup_util_ps1.py'
+[1.928s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yanwen/fyp_ws_v3/install/setup.ps1'
+[1.929s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yanwen/fyp_ws_v3/install/local_setup.sh'
+[1.929s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yanwen/fyp_ws_v3/install/_local_setup_util_sh.py'
+[1.930s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yanwen/fyp_ws_v3/install/setup.sh'
+[1.931s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yanwen/fyp_ws_v3/install/local_setup.bash'
+[1.932s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yanwen/fyp_ws_v3/install/setup.bash'
+[1.933s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yanwen/fyp_ws_v3/install/local_setup.zsh'
+[1.933s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yanwen/fyp_ws_v3/install/setup.zsh'

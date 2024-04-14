@@ -1,0 +1,705 @@
+[0.016s] Invoking command in '/home/yanwen/fyp_ws_v3/build/zed_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yanwen/fyp_ws_v3/src/zed-ros2-wrapper/zed-ros2-interfaces -DCMAKE_INSTALL_PREFIX=/home/yanwen/fyp_ws_v3/install/zed_interfaces
+[0.641s] -- The C compiler identification is GNU 11.4.0
+[0.781s] -- The CXX compiler identification is GNU 11.4.0
+[0.890s] -- Detecting C compiler ABI info
+[1.060s] -- Detecting C compiler ABI info - done
+[1.065s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.066s] -- Detecting C compile features
+[1.104s] -- Detecting C compile features - done
+[1.119s] -- Detecting CXX compiler ABI info
+[1.250s] -- Detecting CXX compiler ABI info - done
+[1.255s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.255s] -- Detecting CXX compile features
+[1.256s] -- Detecting CXX compile features - done
+[1.300s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.676s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.452s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.494s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.511s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.559s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.643s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.986s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.378s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.788s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.899s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.927s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.992s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.041s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.042s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.042s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.042s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.061s] -- Found PythonExtra: .so  
+[4.127s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.131s] -- Added test 'lint_cmake' to check CMake code style
+[4.135s] -- Added test 'xmllint' to check XML markup files
+[4.190s] -- Configuring done
+[4.235s] -- Generating done
+[4.237s] -- Build files have been written to: /home/yanwen/fyp_ws_v3/build/zed_interfaces
+[4.246s] Invoked command in '/home/yanwen/fyp_ws_v3/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yanwen/fyp_ws_v3/src/zed-ros2-wrapper/zed-ros2-interfaces -DCMAKE_INSTALL_PREFIX=/home/yanwen/fyp_ws_v3/install/zed_interfaces
+[4.246s] Invoking command in '/home/yanwen/fyp_ws_v3/build/zed_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/zed_interfaces -- -j8 -l8
+[4.276s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.284s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.289s] [  0%] Built target ament_cmake_python_copy_zed_interfaces
+[4.478s] running egg_info
+[4.479s] creating zed_interfaces.egg-info
+[4.479s] writing zed_interfaces.egg-info/PKG-INFO
+[4.479s] writing dependency_links to zed_interfaces.egg-info/dependency_links.txt
+[4.479s] writing top-level names to zed_interfaces.egg-info/top_level.txt
+[4.479s] writing manifest file 'zed_interfaces.egg-info/SOURCES.txt'
+[4.481s] reading manifest file 'zed_interfaces.egg-info/SOURCES.txt'
+[4.481s] writing manifest file 'zed_interfaces.egg-info/SOURCES.txt'
+[4.501s] [  0%] Built target ament_cmake_python_build_zed_interfaces_egg
+[6.221s] [  0%] Built target zed_interfaces__cpp
+[6.261s] [  1%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.277s] [  1%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.284s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.709s] [  3%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/object__functions.c.o[0m
+[6.748s] [  4%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/objects_stamped__functions.c.o[0m
+[6.783s] [  4%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/keypoint2_di__functions.c.o[0m
+[6.784s] [  5%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/keypoint2_df__functions.c.o[0m
+[6.821s] [  6%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/keypoint3_d__functions.c.o[0m
+[6.871s] [  6%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/bounding_box2_di__functions.c.o[0m
+[6.912s] [  7%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/bounding_box2_df__functions.c.o[0m
+[6.946s] [  8%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/skeleton2_d__functions.c.o[0m
+[6.951s] [  8%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/bounding_box3_d__functions.c.o[0m
+[6.976s] [  9%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/skeleton3_d__functions.c.o[0m
+[7.020s] [ 10%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/plane_stamped__functions.c.o[0m
+[7.044s] [ 10%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/depth_info_stamped__functions.c.o[0m
+[7.075s] [ 11%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/pos_track_status__functions.c.o[0m
+[7.100s] [ 11%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/heartbeat__functions.c.o[0m
+[7.111s] [ 12%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/srv/detail/set_pose__functions.c.o[0m
+[7.189s] [ 12%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/srv/detail/start_svo_rec__functions.c.o[0m
+[7.197s] [ 13%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/srv/detail/set_roi__functions.c.o[0m
+[7.392s] [ 14%] [32m[1mLinking C shared library libzed_interfaces__rosidl_generator_c.so[0m
+[7.485s] [ 14%] Built target zed_interfaces__rosidl_generator_c
+[7.499s] [ 15%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.540s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.546s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.586s] [ 18%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/keypoint2_di__type_support.cpp.o[0m
+[8.586s] [ 18%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/object__type_support.cpp.o[0m
+[8.590s] [ 19%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/objects_stamped__type_support.cpp.o[0m
+[8.590s] [ 20%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/object__type_support.cpp.o[0m
+[8.888s] [ 20%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/objects_stamped__type_support.cpp.o[0m
+[8.929s] [ 20%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/keypoint2_df__type_support.cpp.o[0m
+[8.983s] [ 21%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/keypoint3_d__type_support.cpp.o[0m
+[9.242s] [ 22%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/keypoint2_di__type_support.cpp.o[0m
+[9.272s] [ 23%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/keypoint2_df__type_support.cpp.o[0m
+[9.317s] [ 24%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/bounding_box2_di__type_support.cpp.o[0m
+[9.425s] [ 24%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/keypoint3_d__type_support.cpp.o[0m
+[9.647s] [ 24%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/bounding_box2_df__type_support.cpp.o[0m
+[9.690s] [ 25%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/bounding_box2_di__type_support.cpp.o[0m
+[9.746s] [ 26%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/object__type_support.cpp.o[0m
+[9.760s] [ 26%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/objects_stamped__type_support.cpp.o[0m
+[9.927s] [ 27%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/object__type_support.cpp.o[0m
+[9.927s] [ 27%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/keypoint2_di__type_support.cpp.o[0m
+[10.082s] [ 28%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/bounding_box3_d__type_support.cpp.o[0m
+[10.095s] [ 29%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/objects_stamped__type_support.cpp.o[0m
+[10.139s] [ 31%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/keypoint2_di__type_support.cpp.o[0m
+[10.139s] [ 31%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/bounding_box2_df__type_support.cpp.o[0m
+[10.154s] [ 32%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/object__type_support.c.o[0m
+[10.172s] [ 32%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/keypoint2_df__type_support.cpp.o[0m
+[10.212s] [ 33%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/keypoint3_d__type_support.cpp.o[0m
+[10.246s] [ 33%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/bounding_box2_di__type_support.cpp.o[0m
+[10.250s] [ 33%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/bounding_box3_d__type_support.cpp.o[0m
+[10.252s] [ 33%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/objects_stamped__type_support.c.o[0m
+[10.282s] [ 34%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/bounding_box2_df__type_support.cpp.o[0m
+[10.314s] [ 35%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/bounding_box3_d__type_support.cpp.o[0m
+[10.321s] [ 35%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/skeleton2_d__type_support.cpp.o[0m
+[10.344s] [ 35%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/object__type_support_c.cpp.o[0m
+[10.348s] [ 36%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/keypoint2_di__type_support.c.o[0m
+[10.354s] [ 37%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/objects_stamped__type_support_c.cpp.o[0m
+[10.354s] [ 38%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/skeleton3_d__type_support.cpp.o[0m
+[10.387s] [ 39%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/keypoint2_df__type_support.cpp.o[0m
+[10.393s] [ 40%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/depth_info_stamped__type_support.cpp.o[0m
+[10.403s] [ 40%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/keypoint2_df__type_support.c.o[0m
+[10.437s] [ 41%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/skeleton2_d__type_support.cpp.o[0m
+[10.452s] [ 41%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/plane_stamped__type_support.cpp.o[0m
+[10.458s] [ 42%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/keypoint3_d__type_support.c.o[0m
+[10.532s] [ 43%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/pos_track_status__type_support.cpp.o[0m
+[10.566s] [ 43%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/heartbeat__type_support.cpp.o[0m
+[10.572s] [ 44%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/bounding_box2_di__type_support.c.o[0m
+[10.588s] [ 44%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/skeleton3_d__type_support.cpp.o[0m
+[10.628s] [ 45%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/srv/set_pose__type_support.cpp.o[0m
+[10.642s] [ 45%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/bounding_box2_df__type_support.c.o[0m
+[10.703s] [ 46%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/srv/start_svo_rec__type_support.cpp.o[0m
+[10.709s] [ 47%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/skeleton2_d__type_support.cpp.o[0m
+[10.714s] [ 48%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/bounding_box3_d__type_support.c.o[0m
+[10.749s] [ 48%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/keypoint3_d__type_support.cpp.o[0m
+[10.749s] [ 48%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/srv/set_roi__type_support.cpp.o[0m
+[10.765s] [ 49%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/skeleton2_d__type_support.c.o[0m
+[10.784s] [ 50%] [32m[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_c.so[0m
+[10.803s] [ 51%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/depth_info_stamped__type_support.cpp.o[0m
+[10.816s] [ 51%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/skeleton3_d__type_support.c.o[0m
+[10.854s] [ 52%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/keypoint2_di__type_support_c.cpp.o[0m
+[10.865s] [ 52%] Built target zed_interfaces__rosidl_typesupport_c
+[10.876s] [ 52%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/keypoint2_df__type_support_c.cpp.o[0m
+[10.877s] [ 53%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/bounding_box2_di__type_support.cpp.o[0m
+[10.883s] [ 54%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/depth_info_stamped__type_support.c.o[0m
+[10.936s] [ 55%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/plane_stamped__type_support.c.o[0m
+[10.959s] [ 55%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/bounding_box2_df__type_support.cpp.o[0m
+[11.104s] [ 55%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/pos_track_status__type_support.c.o[0m
+[11.133s] [ 55%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/plane_stamped__type_support.cpp.o[0m
+[11.155s] [ 56%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/heartbeat__type_support.c.o[0m
+[11.187s] [ 56%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/skeleton3_d__type_support.cpp.o[0m
+[11.193s] [ 56%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/srv/detail/set_pose__type_support.c.o[0m
+[11.251s] [ 57%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/srv/detail/start_svo_rec__type_support.c.o[0m
+[11.313s] [ 58%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/srv/detail/set_roi__type_support.c.o[0m
+[11.327s] [ 59%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/bounding_box3_d__type_support.cpp.o[0m
+[11.340s] [ 60%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/keypoint3_d__type_support_c.cpp.o[0m
+[11.399s] [ 60%] [32m[1mLinking C shared library libzed_interfaces__rosidl_typesupport_introspection_c.so[0m
+[11.421s] [ 61%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/skeleton2_d__type_support.cpp.o[0m
+[11.452s] [ 61%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/skeleton3_d__type_support.cpp.o[0m
+[11.462s] [ 62%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/pos_track_status__type_support.cpp.o[0m
+[11.462s] [ 62%] Built target zed_interfaces__rosidl_typesupport_introspection_c
+[11.467s] [ 63%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/heartbeat__type_support.cpp.o[0m
+[11.473s] [ 64%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/depth_info_stamped__type_support.cpp.o[0m
+[11.820s] [ 65%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/depth_info_stamped__type_support.cpp.o[0m
+[11.851s] [ 65%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/srv/set_pose__type_support.cpp.o[0m
+[11.857s] [ 66%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/bounding_box2_di__type_support_c.cpp.o[0m
+[11.941s] [ 67%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/plane_stamped__type_support.cpp.o[0m
+[11.950s] [ 68%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/plane_stamped__type_support.cpp.o[0m
+[11.963s] [ 69%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/srv/start_svo_rec__type_support.cpp.o[0m
+[11.996s] [ 70%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/srv/set_roi__type_support.cpp.o[0m
+[12.045s] [ 70%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/pos_track_status__type_support.cpp.o[0m
+[12.185s] [ 71%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/heartbeat__type_support.cpp.o[0m
+[12.299s] [ 71%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/pos_track_status__type_support.cpp.o[0m
+[12.300s] [ 72%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/bounding_box3_d__type_support_c.cpp.o[0m
+[12.301s] [ 72%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/bounding_box2_df__type_support_c.cpp.o[0m
+[12.309s] [ 72%] [32m[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_cpp.so[0m
+[12.359s] [ 72%] Built target zed_interfaces__rosidl_typesupport_cpp
+[12.368s] [ 72%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/skeleton2_d__type_support_c.cpp.o[0m
+[12.458s] [ 73%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/skeleton3_d__type_support_c.cpp.o[0m
+[12.479s] [ 74%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/heartbeat__type_support.cpp.o[0m
+[12.491s] [ 74%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/srv/detail/dds_fastrtps/set_pose__type_support.cpp.o[0m
+[12.640s] [ 75%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/srv/detail/dds_fastrtps/start_svo_rec__type_support.cpp.o[0m
+[12.685s] [ 76%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/srv/detail/dds_fastrtps/set_roi__type_support.cpp.o[0m
+[12.719s] [ 77%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/depth_info_stamped__type_support_c.cpp.o[0m
+[12.752s] [ 78%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/srv/detail/set_pose__type_support.cpp.o[0m
+[12.767s] [ 78%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/plane_stamped__type_support_c.cpp.o[0m
+[12.872s] [ 79%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/pos_track_status__type_support_c.cpp.o[0m
+[12.952s] [ 79%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/srv/detail/start_svo_rec__type_support.cpp.o[0m
+[12.964s] [ 80%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/heartbeat__type_support_c.cpp.o[0m
+[13.116s] [ 80%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/srv/detail/set_pose__type_support_c.cpp.o[0m
+[13.162s] [ 81%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/srv/detail/start_svo_rec__type_support_c.cpp.o[0m
+[13.169s] [ 81%] [32m[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.193s] [ 82%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/srv/detail/set_roi__type_support_c.cpp.o[0m
+[13.227s] [ 83%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/srv/detail/set_roi__type_support.cpp.o[0m
+[13.518s] [ 83%] [32m[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[13.565s] [ 83%] Built target zed_interfaces__rosidl_typesupport_fastrtps_cpp
+[13.578s] [ 84%] [32m[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[13.584s] [ 84%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c
+[13.655s] [ 84%] Built target zed_interfaces__rosidl_typesupport_introspection_cpp
+[13.671s] [ 84%] Built target zed_interfaces
+[13.686s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.063s] [ 85%] Built target zed_interfaces__py
+[16.083s] [ 85%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_bounding_box2_di_s.c.o[0m
+[16.083s] [ 86%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_keypoint2_di_s.c.o[0m
+[16.083s] [ 87%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_bounding_box3_d_s.c.o[0m
+[16.083s] [ 86%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_object_s.c.o[0m
+[16.083s] [ 88%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_bounding_box2_df_s.c.o[0m
+[16.083s] [ 89%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_keypoint3_d_s.c.o[0m
+[16.083s] [ 85%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_keypoint2_df_s.c.o[0m
+[16.084s] [ 90%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_objects_stamped_s.c.o[0m
+[16.218s] [ 92%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_skeleton3_d_s.c.o[0m
+[16.219s] [ 92%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_plane_stamped_s.c.o[0m
+[16.219s] [ 92%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_skeleton2_d_s.c.o[0m
+[16.219s] [ 92%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_depth_info_stamped_s.c.o[0m
+[16.254s] [ 93%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_pos_track_status_s.c.o[0m
+[16.261s] [ 94%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_heartbeat_s.c.o[0m
+[16.285s] [ 94%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/srv/_set_pose_s.c.o[0m
+[16.327s] [ 95%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/srv/_start_svo_rec_s.c.o[0m
+[16.340s] [ 95%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/srv/_set_roi_s.c.o[0m
+[16.459s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/zed_interfaces/libzed_interfaces__rosidl_generator_py.so[0m
+[16.495s] [ 96%] Built target zed_interfaces__rosidl_generator_py
+[16.509s] [ 97%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.509s] [ 98%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.513s] [ 99%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[16.624s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/zed_interfaces/zed_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.625s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/zed_interfaces/zed_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.655s] [ 99%] Built target zed_interfaces__rosidl_typesupport_c__pyext
+[16.655s] [ 99%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[16.686s] [100%] [32m[1mLinking C shared library rosidl_generator_py/zed_interfaces/zed_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.716s] [100%] Built target zed_interfaces__rosidl_typesupport_introspection_c__pyext
+[16.739s] Invoked command in '/home/yanwen/fyp_ws_v3/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/zed_interfaces -- -j8 -l8
+[16.948s] Invoking command in '/home/yanwen/fyp_ws_v3/build/zed_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/zed_interfaces
+[16.954s] -- Install configuration: ""
+[16.954s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/ament_index/resource_index/rosidl_interfaces/zed_interfaces
+[16.954s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces
+[16.954s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv
+[16.954s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/set_pose.h
+[16.955s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/start_svo_rec.h
+[16.955s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail
+[16.955s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__functions.c
+[16.955s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__type_support.h
+[16.955s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__type_support.h
+[16.955s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__struct.h
+[16.955s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__type_support.h
+[16.955s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__struct.h
+[16.955s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__functions.c
+[16.955s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__functions.h
+[16.955s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__functions.h
+[16.955s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__functions.c
+[16.955s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__functions.h
+[16.956s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__struct.h
+[16.956s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/set_roi.h
+[16.956s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg
+[16.956s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint2_di.h
+[16.956s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/objects_stamped.h
+[16.956s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/pos_track_status.h
+[16.956s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/depth_info_stamped.h
+[16.956s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/skeleton3_d.h
+[16.956s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail
+[16.956s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__type_support.h
+[16.956s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__struct.h
+[16.956s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__functions.c
+[16.956s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__struct.h
+[16.957s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__functions.h
+[16.957s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__functions.h
+[16.957s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__struct.h
+[16.957s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__functions.h
+[16.957s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__functions.c
+[16.957s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__functions.c
+[16.957s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__functions.c
+[16.957s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__functions.h
+[16.957s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__functions.h
+[16.957s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__type_support.h
+[16.957s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__functions.c
+[16.957s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__functions.c
+[16.957s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__struct.h
+[16.958s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__functions.c
+[16.958s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__struct.h
+[16.958s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__functions.h
+[16.958s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__type_support.h
+[16.958s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__struct.h
+[16.958s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__functions.c
+[16.958s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__functions.h
+[16.958s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__functions.c
+[16.958s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__struct.h
+[16.958s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__struct.h
+[16.958s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__functions.h
+[16.958s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__type_support.h
+[16.958s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__type_support.h
+[16.958s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__functions.c
+[16.959s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__functions.h
+[16.959s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__functions.h
+[16.959s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__functions.h
+[16.959s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__functions.c
+[16.959s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__type_support.h
+[16.959s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__functions.c
+[16.959s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__type_support.h
+[16.959s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__functions.c
+[16.959s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__struct.h
+[16.959s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__type_support.h
+[16.959s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__struct.h
+[16.959s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__type_support.h
+[16.959s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__type_support.h
+[16.959s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__functions.c
+[16.960s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__functions.h
+[16.960s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__type_support.h
+[16.960s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__type_support.h
+[16.960s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__struct.h
+[16.960s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__functions.h
+[16.960s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__type_support.h
+[16.960s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__functions.h
+[16.960s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__struct.h
+[16.960s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__type_support.h
+[16.960s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__struct.h
+[16.960s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__struct.h
+[16.960s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box3_d.h
+[16.960s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/rosidl_generator_c__visibility_control.h
+[16.960s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/object.h
+[16.961s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box2_df.h
+[16.961s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint3_d.h
+[16.961s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/plane_stamped.h
+[16.961s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/heartbeat.h
+[16.961s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint2_df.h
+[16.961s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/skeleton2_d.h
+[16.961s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box2_di.h
+[16.961s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/environment/library_path.sh
+[16.961s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/environment/library_path.dsv
+[16.961s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/libzed_interfaces__rosidl_generator_c.so
+[16.961s] -- Set runtime path of "/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/libzed_interfaces__rosidl_generator_c.so" to ""
+[16.961s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces
+[16.962s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv
+[16.962s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail
+[16.962s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+[16.962s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_fastrtps_c.h
+[16.962s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_c.h
+[16.962s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg
+[16.962s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail
+[16.962s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_c.h
+[16.962s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_c.h
+[16.962s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_c.h
+[16.962s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_c.h
+[16.962s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_c.h
+[16.963s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_c.h
+[16.963s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_c.h
+[16.963s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[16.963s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_c.h
+[16.963s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+[16.963s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_fastrtps_c.h
+[16.963s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_c.h
+[16.963s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_c.h
+[16.963s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_c.h
+[16.963s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.963s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_fastrtps_c.so
+[16.963s] -- Set runtime path of "/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[16.963s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces
+[16.963s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv
+[16.964s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail
+[16.964s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__traits.hpp
+[16.964s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__struct.hpp
+[16.964s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__builder.hpp
+[16.964s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__traits.hpp
+[16.964s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__traits.hpp
+[16.964s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__builder.hpp
+[16.964s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__builder.hpp
+[16.964s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__struct.hpp
+[16.964s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__struct.hpp
+[16.964s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/start_svo_rec.hpp
+[16.964s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/set_roi.hpp
+[16.964s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/set_pose.hpp
+[16.964s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg
+[16.965s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/skeleton3_d.hpp
+[16.965s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint3_d.hpp
+[16.965s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/plane_stamped.hpp
+[16.965s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box3_d.hpp
+[16.965s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint2_df.hpp
+[16.965s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/objects_stamped.hpp
+[16.965s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box2_df.hpp
+[16.965s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail
+[16.965s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__traits.hpp
+[16.965s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__builder.hpp
+[16.965s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__struct.hpp
+[16.965s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__struct.hpp
+[16.965s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__traits.hpp
+[16.965s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__struct.hpp
+[16.966s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__struct.hpp
+[16.966s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__struct.hpp
+[16.966s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__traits.hpp
+[16.966s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__struct.hpp
+[16.966s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__struct.hpp
+[16.966s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__builder.hpp
+[16.966s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__traits.hpp
+[16.966s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__builder.hpp
+[16.966s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__traits.hpp
+[16.966s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__traits.hpp
+[16.966s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__struct.hpp
+[16.966s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__traits.hpp
+[16.966s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__builder.hpp
+[16.966s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__struct.hpp
+[16.966s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__traits.hpp
+[16.967s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__builder.hpp
+[16.967s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__builder.hpp
+[16.967s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__builder.hpp
+[16.967s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__builder.hpp
+[16.967s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__struct.hpp
+[16.967s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__builder.hpp
+[16.967s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__traits.hpp
+[16.967s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__traits.hpp
+[16.967s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__traits.hpp
+[16.967s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__builder.hpp
+[16.967s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__builder.hpp
+[16.967s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__traits.hpp
+[16.967s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__struct.hpp
+[16.968s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__traits.hpp
+[16.968s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__traits.hpp
+[16.968s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__builder.hpp
+[16.968s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__struct.hpp
+[16.968s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__builder.hpp
+[16.968s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__struct.hpp
+[16.968s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__builder.hpp
+[16.968s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__struct.hpp
+[16.968s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/object.hpp
+[16.968s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/skeleton2_d.hpp
+[16.968s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint2_di.hpp
+[16.968s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/pos_track_status.hpp
+[16.968s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box2_di.hpp
+[16.969s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/heartbeat.hpp
+[16.969s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/depth_info_stamped.hpp
+[16.969s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces
+[16.969s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv
+[16.969s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail
+[16.969s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_fastrtps_cpp.hpp
+[16.969s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_cpp.hpp
+[16.969s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/dds_fastrtps
+[16.969s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[16.969s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg
+[16.969s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.969s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail
+[16.969s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[16.970s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[16.970s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[16.970s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_cpp.hpp
+[16.970s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[16.970s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_cpp.hpp
+[16.970s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[16.971s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_cpp.hpp
+[16.971s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_fastrtps_cpp.hpp
+[16.971s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[16.971s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[16.971s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_cpp.hpp
+[16.971s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/dds_fastrtps
+[16.971s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[16.971s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_cpp.hpp
+[16.971s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[16.971s] -- Set runtime path of "/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.971s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces
+[16.972s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv
+[16.972s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail
+[16.972s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_introspection_c.h
+[16.972s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_c.h
+[16.972s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__type_support.c
+[16.972s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__type_support.c
+[16.972s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_introspection_c.h
+[16.972s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__type_support.c
+[16.972s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg
+[16.972s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail
+[16.972s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_introspection_c.h
+[16.972s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__type_support.c
+[16.973s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__type_support.c
+[16.973s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__type_support.c
+[16.973s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_c.h
+[16.973s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__type_support.c
+[16.973s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__type_support.c
+[16.973s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__type_support.c
+[16.973s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__type_support.c
+[16.973s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__type_support.c
+[16.973s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_introspection_c.h
+[16.973s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__type_support.c
+[16.973s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_introspection_c.h
+[16.973s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__type_support.c
+[16.973s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__rosidl_typesupport_introspection_c.h
+[16.973s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_introspection_c.h
+[16.973s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__type_support.c
+[16.974s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_introspection_c.h
+[16.974s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__type_support.c
+[16.974s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__type_support.c
+[16.974s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+[16.974s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_introspection_c.h
+[16.974s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_introspection_c.h
+[16.974s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_introspection_c.h
+[16.974s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__type_support.c
+[16.974s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_c.h
+[16.974s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_introspection_c.h
+[16.974s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_c.h
+[16.974s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.974s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_c.so
+[16.974s] -- Set runtime path of "/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[16.975s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_c.so
+[16.975s] -- Set runtime path of "/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_c.so" to ""
+[16.975s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces
+[16.975s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv
+[16.975s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail
+[16.975s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__type_support.cpp
+[16.975s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+[16.975s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__type_support.cpp
+[16.975s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_introspection_cpp.hpp
+[16.975s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__type_support.cpp
+[16.975s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_introspection_cpp.hpp
+[16.975s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg
+[16.975s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail
+[16.975s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__type_support.cpp
+[16.975s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__type_support.cpp
+[16.976s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__type_support.cpp
+[16.976s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__type_support.cpp
+[16.976s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__type_support.cpp
+[16.976s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_introspection_cpp.hpp
+[16.976s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__type_support.cpp
+[16.976s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__type_support.cpp
+[16.976s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_introspection_cpp.hpp
+[16.976s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+[16.976s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_introspection_cpp.hpp
+[16.976s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__type_support.cpp
+[16.976s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__type_support.cpp
+[16.976s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_introspection_cpp.hpp
+[16.976s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_introspection_cpp.hpp
+[16.976s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__type_support.cpp
+[16.976s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_introspection_cpp.hpp
+[16.976s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__type_support.cpp
+[16.976s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__type_support.cpp
+[16.977s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[16.977s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_cpp.hpp
+[16.977s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_introspection_cpp.hpp
+[16.977s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__type_support.cpp
+[16.977s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_introspection_cpp.hpp
+[16.977s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_cpp.hpp
+[16.977s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_cpp.hpp
+[16.977s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__type_support.cpp
+[16.977s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_introspection_cpp.hpp
+[16.977s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_cpp.so
+[16.977s] -- Set runtime path of "/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[16.977s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_cpp.so
+[16.977s] -- Set runtime path of "/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_cpp.so" to ""
+[16.977s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/environment/pythonpath.sh
+[16.977s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/environment/pythonpath.dsv
+[16.978s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces-4.0.0-py3.10.egg-info
+[16.978s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces-4.0.0-py3.10.egg-info/top_level.txt
+[16.978s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces-4.0.0-py3.10.egg-info/PKG-INFO
+[16.978s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces-4.0.0-py3.10.egg-info/SOURCES.txt
+[16.978s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces-4.0.0-py3.10.egg-info/dependency_links.txt
+[16.978s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces
+[16.978s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.978s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/__init__.py
+[16.978s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_c.c
+[16.978s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.978s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv
+[16.978s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_start_svo_rec_s.c
+[16.978s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/__init__.py
+[16.978s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_start_svo_rec.py
+[16.978s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_pose_s.c
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_roi.py
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_pose.py
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_roi_s.c
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/libzed_interfaces__rosidl_generator_py.so
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_pos_track_status.py
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton2_d.py
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_plane_stamped.py
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton2_d_s.c
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box3_d_s.c
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/__init__.py
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_di.py
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_heartbeat_s.c
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_plane_stamped_s.c
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box3_d.py
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_depth_info_stamped.py
+[16.979s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_object.py
+[16.980s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_object_s.c
+[16.980s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_di.py
+[16.980s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_di_s.c
+[16.980s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_heartbeat.py
+[16.980s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint3_d_s.c
+[16.980s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_objects_stamped_s.c
+[16.980s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_di_s.c
+[16.980s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_df.py
+[16.980s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton3_d_s.c
+[16.980s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton3_d.py
+[16.980s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_df_s.c
+[16.980s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_df.py
+[16.980s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_depth_info_stamped_s.c
+[16.980s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_pos_track_status_s.c
+[16.980s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_objects_stamped.py
+[16.980s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint3_d.py
+[16.980s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_df_s.c
+[17.018s] Listing '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces'...
+[17.018s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/__init__.py'...
+[17.018s] Listing '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg'...
+[17.018s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/__init__.py'...
+[17.018s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_df.py'...
+[17.018s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_di.py'...
+[17.018s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box3_d.py'...
+[17.018s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_depth_info_stamped.py'...
+[17.018s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_heartbeat.py'...
+[17.018s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_df.py'...
+[17.018s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_di.py'...
+[17.018s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint3_d.py'...
+[17.018s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_object.py'...
+[17.018s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_objects_stamped.py'...
+[17.018s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_plane_stamped.py'...
+[17.018s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_pos_track_status.py'...
+[17.018s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton2_d.py'...
+[17.018s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton3_d.py'...
+[17.018s] Listing '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv'...
+[17.018s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/__init__.py'...
+[17.019s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_pose.py'...
+[17.019s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_roi.py'...
+[17.019s] Compiling '/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_start_svo_rec.py'...
+[17.021s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[17.021s] -- Set runtime path of "/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[17.022s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[17.022s] -- Set runtime path of "/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[17.022s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[17.022s] -- Set runtime path of "/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[17.022s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/libzed_interfaces__rosidl_generator_py.so
+[17.022s] -- Set runtime path of "/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib/libzed_interfaces__rosidl_generator_py.so" to ""
+[17.023s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/Object.idl
+[17.023s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/ObjectsStamped.idl
+[17.023s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Di.idl
+[17.023s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Df.idl
+[17.023s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/Keypoint3D.idl
+[17.023s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Di.idl
+[17.023s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Df.idl
+[17.023s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox3D.idl
+[17.023s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/Skeleton2D.idl
+[17.023s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/Skeleton3D.idl
+[17.023s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/DepthInfoStamped.idl
+[17.023s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/PlaneStamped.idl
+[17.024s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/PosTrackStatus.idl
+[17.024s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/Heartbeat.idl
+[17.024s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/srv/SetPose.idl
+[17.024s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec.idl
+[17.024s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/srv/SetROI.idl
+[17.024s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/Object.msg
+[17.024s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/ObjectsStamped.msg
+[17.024s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Di.msg
+[17.024s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Df.msg
+[17.024s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/Keypoint3D.msg
+[17.024s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Di.msg
+[17.024s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Df.msg
+[17.025s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox3D.msg
+[17.025s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/Skeleton2D.msg
+[17.025s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/Skeleton3D.msg
+[17.025s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/DepthInfoStamped.msg
+[17.025s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/PlaneStamped.msg
+[17.025s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/PosTrackStatus.msg
+[17.025s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/msg/Heartbeat.msg
+[17.025s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/srv/SetPose.srv
+[17.025s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/srv/SetPose_Request.msg
+[17.025s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/srv/SetPose_Response.msg
+[17.025s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec.srv
+[17.025s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec_Request.msg
+[17.025s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec_Response.msg
+[17.026s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/srv/SetROI.srv
+[17.026s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/srv/SetROI_Request.msg
+[17.026s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/srv/SetROI_Response.msg
+[17.026s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/meshes
+[17.026s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/meshes/zedxm.stl
+[17.034s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/meshes/zed.stl
+[17.034s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/meshes/zedm.stl
+[17.034s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/meshes/zed2i.stl
+[17.034s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/meshes/zed2.stl
+[17.034s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/meshes/zedx.stl
+[17.044s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/ament_index/resource_index/package_run_dependencies/zed_interfaces
+[17.044s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/ament_index/resource_index/parent_prefix_path/zed_interfaces
+[17.044s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/environment/ament_prefix_path.sh
+[17.044s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/environment/ament_prefix_path.dsv
+[17.044s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/environment/path.sh
+[17.044s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/environment/path.dsv
+[17.044s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/local_setup.bash
+[17.044s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/local_setup.sh
+[17.044s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/local_setup.zsh
+[17.044s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/local_setup.dsv
+[17.045s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/package.dsv
+[17.045s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/ament_index/resource_index/packages/zed_interfaces
+[17.045s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_cExport.cmake
+[17.045s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_cExport-noconfig.cmake
+[17.045s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[17.045s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[17.045s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_cppExport.cmake
+[17.045s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[17.045s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[17.045s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[17.045s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.046s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cExport.cmake
+[17.046s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[17.046s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[17.046s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.046s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cppExport.cmake
+[17.046s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[17.046s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_pyExport.cmake
+[17.046s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[17.046s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake-extras.cmake
+[17.046s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.046s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.046s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[17.046s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[17.047s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.047s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.047s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfacesConfig.cmake
+[17.047s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfacesConfig-version.cmake
+[17.047s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_interfaces/share/zed_interfaces/package.xml
+[17.050s] Invoked command in '/home/yanwen/fyp_ws_v3/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/zed_interfaces

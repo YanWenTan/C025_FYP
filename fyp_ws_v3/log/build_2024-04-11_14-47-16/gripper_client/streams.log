@@ -1,0 +1,23 @@
+[0.102s] Invoking command in '/home/yanwen/fyp_ws_v3/build/gripper_client': AMENT_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/gripper_client -- -j8 -l8
+[0.344s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.344s] [100%] Built target client
+[0.361s] Invoked command in '/home/yanwen/fyp_ws_v3/build/gripper_client' returned '0': AMENT_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/gripper_client -- -j8 -l8
+[0.392s] Invoking command in '/home/yanwen/fyp_ws_v3/build/gripper_client': AMENT_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/gripper_client
+[0.398s] -- Install configuration: ""
+[0.398s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/gripper_client/lib/gripper_client/client
+[0.398s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/gripper_client/share/ament_index/resource_index/package_run_dependencies/gripper_client
+[0.398s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/gripper_client/share/ament_index/resource_index/parent_prefix_path/gripper_client
+[0.399s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/environment/ament_prefix_path.sh
+[0.399s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/environment/ament_prefix_path.dsv
+[0.399s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/environment/path.sh
+[0.399s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/environment/path.dsv
+[0.399s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/local_setup.bash
+[0.399s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/local_setup.sh
+[0.399s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/local_setup.zsh
+[0.399s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/local_setup.dsv
+[0.399s] -- Installing: /home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/package.dsv
+[0.399s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/gripper_client/share/ament_index/resource_index/packages/gripper_client
+[0.399s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/cmake/gripper_clientConfig.cmake
+[0.399s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/cmake/gripper_clientConfig-version.cmake
+[0.399s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/package.xml
+[0.403s] Invoked command in '/home/yanwen/fyp_ws_v3/build/gripper_client' returned '0': AMENT_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/gripper_client

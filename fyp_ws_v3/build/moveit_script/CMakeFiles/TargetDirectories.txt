@@ -1,0 +1,10 @@
+/home/yanwen/fyp_ws_v3/build/moveit_script/CMakeFiles/uninstall.dir
+/home/yanwen/fyp_ws_v3/build/moveit_script/CMakeFiles/moveit_script_uninstall.dir
+/home/yanwen/fyp_ws_v3/build/moveit_script/CMakeFiles/moveit_script.dir
+/home/yanwen/fyp_ws_v3/build/moveit_script/CMakeFiles/test.dir
+/home/yanwen/fyp_ws_v3/build/moveit_script/CMakeFiles/edit_cache.dir
+/home/yanwen/fyp_ws_v3/build/moveit_script/CMakeFiles/rebuild_cache.dir
+/home/yanwen/fyp_ws_v3/build/moveit_script/CMakeFiles/list_install_components.dir
+/home/yanwen/fyp_ws_v3/build/moveit_script/CMakeFiles/install.dir
+/home/yanwen/fyp_ws_v3/build/moveit_script/CMakeFiles/install/local.dir
+/home/yanwen/fyp_ws_v3/build/moveit_script/CMakeFiles/install/strip.dir

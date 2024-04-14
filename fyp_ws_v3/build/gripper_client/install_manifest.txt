@@ -1,0 +1,16 @@
+/home/yanwen/fyp_ws_v3/install/gripper_client/lib/gripper_client/client
+/home/yanwen/fyp_ws_v3/install/gripper_client/share/ament_index/resource_index/package_run_dependencies/gripper_client
+/home/yanwen/fyp_ws_v3/install/gripper_client/share/ament_index/resource_index/parent_prefix_path/gripper_client
+/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/environment/ament_prefix_path.sh
+/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/environment/ament_prefix_path.dsv
+/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/environment/path.sh
+/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/environment/path.dsv
+/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/local_setup.bash
+/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/local_setup.sh
+/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/local_setup.zsh
+/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/local_setup.dsv
+/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/package.dsv
+/home/yanwen/fyp_ws_v3/install/gripper_client/share/ament_index/resource_index/packages/gripper_client
+/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/cmake/gripper_clientConfig.cmake
+/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/cmake/gripper_clientConfig-version.cmake
+/home/yanwen/fyp_ws_v3/install/gripper_client/share/gripper_client/package.xml

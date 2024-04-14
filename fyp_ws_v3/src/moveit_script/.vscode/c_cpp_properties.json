@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/yanwen/test/install/moveit_task_constructor_visualization/include/**",
+        "/home/yanwen/test/install/moveit_task_constructor_demo/include/**",
+        "/home/yanwen/test/install/moveit_task_constructor_core/include/**",
+        "/home/yanwen/test/install/rviz_marker_tools/include/**",
+        "/home/yanwen/test/install/moveit_task_constructor_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/yanwen/test/src/moveit_script/include/**",
+        "/home/yanwen/test/src/moveit_task_constructor/core/include/**",
+        "/home/yanwen/test/src/moveit_task_constructor/demo/include/**",
+        "/home/yanwen/test/src/moveit_task_constructor/rviz_marker_tools/include/**",
+        "/home/yanwen/test/src/ur10_robotiq140/include/**",
+        "include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

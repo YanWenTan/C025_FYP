@@ -1,0 +1,4 @@
+[console_scripts]
+obj_detection_publisher = cv_ros2_test.object_detection_publisher:main
+transform_pose_publisher = cv_ros2_test.object_pose_transform:main
+

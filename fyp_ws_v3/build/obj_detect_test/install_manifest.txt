@@ -1,0 +1,15 @@
+/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/ament_index/resource_index/package_run_dependencies/obj_detect_test
+/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/ament_index/resource_index/parent_prefix_path/obj_detect_test
+/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/environment/ament_prefix_path.sh
+/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/environment/ament_prefix_path.dsv
+/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/environment/path.sh
+/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/environment/path.dsv
+/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/local_setup.bash
+/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/local_setup.sh
+/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/local_setup.zsh
+/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/local_setup.dsv
+/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/package.dsv
+/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/ament_index/resource_index/packages/obj_detect_test
+/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/cmake/obj_detect_testConfig.cmake
+/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/cmake/obj_detect_testConfig-version.cmake
+/home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/package.xml

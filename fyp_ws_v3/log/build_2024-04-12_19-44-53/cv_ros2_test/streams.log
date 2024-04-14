@@ -1,0 +1,26 @@
+[1.697s] Invoking command in '/home/yanwen/fyp_ws_v3/src/cv_ros2_test': PYTHONPATH=/home/yanwen/fyp_ws_v3/build/cv_ros2_test/prefix_override:/home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_ros2_test build --build-base /home/yanwen/fyp_ws_v3/build/cv_ros2_test/build install --record /home/yanwen/fyp_ws_v3/build/cv_ros2_test/install.log --single-version-externally-managed
+[2.141s] running egg_info
+[2.142s] writing ../../build/cv_ros2_test/cv_ros2_test.egg-info/PKG-INFO
+[2.142s] writing dependency_links to ../../build/cv_ros2_test/cv_ros2_test.egg-info/dependency_links.txt
+[2.142s] writing entry points to ../../build/cv_ros2_test/cv_ros2_test.egg-info/entry_points.txt
+[2.143s] writing requirements to ../../build/cv_ros2_test/cv_ros2_test.egg-info/requires.txt
+[2.143s] writing top-level names to ../../build/cv_ros2_test/cv_ros2_test.egg-info/top_level.txt
+[2.146s] reading manifest file '../../build/cv_ros2_test/cv_ros2_test.egg-info/SOURCES.txt'
+[2.147s] writing manifest file '../../build/cv_ros2_test/cv_ros2_test.egg-info/SOURCES.txt'
+[2.148s] running build
+[2.152s] running build_py
+[2.154s] copying cv_ros2_test/object_detection_publisher.py -> /home/yanwen/fyp_ws_v3/build/cv_ros2_test/build/lib/cv_ros2_test
+[2.154s] running install
+[2.155s] running install_lib
+[2.155s] copying /home/yanwen/fyp_ws_v3/build/cv_ros2_test/build/lib/cv_ros2_test/object_detection_publisher.py -> /home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/python3.10/site-packages/cv_ros2_test
+[2.157s] byte-compiling /home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/python3.10/site-packages/cv_ros2_test/object_pose_transform.py to object_pose_transform.cpython-310.pyc
+[2.159s] byte-compiling /home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/python3.10/site-packages/cv_ros2_test/object_detection_publisher.py to object_detection_publisher.cpython-310.pyc
+[2.162s] running install_data
+[2.164s] running install_egg_info
+[2.170s] removing '/home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/python3.10/site-packages/cv_ros2_test-0.0.0-py3.10.egg-info' (and everything under it)
+[2.170s] Copying ../../build/cv_ros2_test/cv_ros2_test.egg-info to /home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/python3.10/site-packages/cv_ros2_test-0.0.0-py3.10.egg-info
+[2.171s] running install_scripts
+[2.201s] Installing obj_detection_publisher script to /home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/cv_ros2_test
+[2.201s] Installing transform_pose_publisher script to /home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/cv_ros2_test
+[2.202s] writing list of installed files to '/home/yanwen/fyp_ws_v3/build/cv_ros2_test/install.log'
+[2.276s] Invoked command in '/home/yanwen/fyp_ws_v3/src/cv_ros2_test' returned '0': PYTHONPATH=/home/yanwen/fyp_ws_v3/build/cv_ros2_test/prefix_override:/home/yanwen/fyp_ws_v3/install/cv_ros2_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_ros2_test build --build-base /home/yanwen/fyp_ws_v3/build/cv_ros2_test/build install --record /home/yanwen/fyp_ws_v3/build/cv_ros2_test/install.log --single-version-externally-managed

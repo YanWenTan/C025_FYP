@@ -1,0 +1,9 @@
+/home/yanwen/fyp_ws_v3/build/obj_detect_test/CMakeFiles/uninstall.dir
+/home/yanwen/fyp_ws_v3/build/obj_detect_test/CMakeFiles/obj_detect_test_uninstall.dir
+/home/yanwen/fyp_ws_v3/build/obj_detect_test/CMakeFiles/test.dir
+/home/yanwen/fyp_ws_v3/build/obj_detect_test/CMakeFiles/edit_cache.dir
+/home/yanwen/fyp_ws_v3/build/obj_detect_test/CMakeFiles/rebuild_cache.dir
+/home/yanwen/fyp_ws_v3/build/obj_detect_test/CMakeFiles/list_install_components.dir
+/home/yanwen/fyp_ws_v3/build/obj_detect_test/CMakeFiles/install.dir
+/home/yanwen/fyp_ws_v3/build/obj_detect_test/CMakeFiles/install/local.dir
+/home/yanwen/fyp_ws_v3/build/obj_detect_test/CMakeFiles/install/strip.dir

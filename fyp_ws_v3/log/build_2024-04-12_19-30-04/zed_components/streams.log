@@ -1,0 +1,38 @@
+[0.039s] Invoking command in '/home/yanwen/fyp_ws_v3/build/zed_components': AMENT_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/zed_components -- -j8 -l8
+[1.033s] [100%] Built target zed_camera_component
+[1.044s] Invoked command in '/home/yanwen/fyp_ws_v3/build/zed_components' returned '0': AMENT_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/zed_components -- -j8 -l8
+[1.083s] Invoking command in '/home/yanwen/fyp_ws_v3/build/zed_components': AMENT_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/zed_components
+[1.096s] -- Install configuration: "Release"
+[1.136s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/lib/libzed_camera_component.so
+[1.137s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/include/zed_components/
+[1.137s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/include/zed_components//cost_traversability.hpp
+[1.137s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/include/zed_components//sl_types.hpp
+[1.137s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/include/zed_components//zed_camera_component.hpp
+[1.137s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/include/zed_components/
+[1.137s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/include/zed_components//sl_win_avg.hpp
+[1.137s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/include/zed_components//sl_logging.hpp
+[1.137s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/include/zed_components//sl_tools.hpp
+[1.137s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/include/zed_components/
+[1.137s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/include/zed_components//visibility_control.hpp
+[1.137s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/environment/library_path.sh
+[1.137s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/environment/library_path.dsv
+[1.149s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/ament_index/resource_index/package_run_dependencies/zed_components
+[1.150s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/ament_index/resource_index/parent_prefix_path/zed_components
+[1.150s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/environment/ament_prefix_path.sh
+[1.150s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/environment/ament_prefix_path.dsv
+[1.150s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/environment/path.sh
+[1.150s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/environment/path.dsv
+[1.150s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/local_setup.bash
+[1.150s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/local_setup.sh
+[1.150s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/local_setup.zsh
+[1.150s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/local_setup.dsv
+[1.150s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/package.dsv
+[1.150s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/ament_index/resource_index/packages/zed_components
+[1.151s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/ament_index/resource_index/rclcpp_components/zed_components
+[1.151s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.152s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/cmake/ament_cmake_export_libraries-extras.cmake
+[1.152s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.152s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/cmake/zed_componentsConfig.cmake
+[1.152s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/cmake/zed_componentsConfig-version.cmake
+[1.152s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_components/share/zed_components/package.xml
+[1.158s] Invoked command in '/home/yanwen/fyp_ws_v3/build/zed_components' returned '0': AMENT_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yanwen/fyp_ws_v3/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/zed_components

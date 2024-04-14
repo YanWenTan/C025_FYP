@@ -1,0 +1,20 @@
+[0.353s] Invoking command in '/home/yanwen/fyp_ws_v3/build/obj_detect_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/obj_detect_test -- -j8 -l8
+[0.382s] Invoked command in '/home/yanwen/fyp_ws_v3/build/obj_detect_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/obj_detect_test -- -j8 -l8
+[0.411s] Invoking command in '/home/yanwen/fyp_ws_v3/build/obj_detect_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/obj_detect_test
+[0.419s] -- Install configuration: ""
+[0.419s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/ament_index/resource_index/package_run_dependencies/obj_detect_test
+[0.419s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/ament_index/resource_index/parent_prefix_path/obj_detect_test
+[0.419s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/environment/ament_prefix_path.sh
+[0.419s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/environment/ament_prefix_path.dsv
+[0.419s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/environment/path.sh
+[0.419s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/environment/path.dsv
+[0.419s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/local_setup.bash
+[0.419s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/local_setup.sh
+[0.419s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/local_setup.zsh
+[0.420s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/local_setup.dsv
+[0.420s] -- Installing: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/package.dsv
+[0.420s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/ament_index/resource_index/packages/obj_detect_test
+[0.421s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/cmake/obj_detect_testConfig.cmake
+[0.421s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/cmake/obj_detect_testConfig-version.cmake
+[0.421s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/obj_detect_test/share/obj_detect_test/package.xml
+[0.423s] Invoked command in '/home/yanwen/fyp_ws_v3/build/obj_detect_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/obj_detect_test

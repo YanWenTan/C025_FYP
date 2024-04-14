@@ -1,0 +1,44 @@
+[0.020s] Invoking command in '/home/yanwen/fyp_ws_v3/build/zed_wrapper': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/zed_wrapper -- -j8 -l8
+[0.060s] [100%] Built target zed_wrapper
+[0.070s] Invoked command in '/home/yanwen/fyp_ws_v3/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --build /home/yanwen/fyp_ws_v3/build/zed_wrapper -- -j8 -l8
+[0.094s] Invoking command in '/home/yanwen/fyp_ws_v3/build/zed_wrapper': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/zed_wrapper
+[0.102s] -- Install configuration: "Release"
+[0.102s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/lib/zed_wrapper/zed_wrapper
+[0.102s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/config
+[0.102s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/config/zed.yaml
+[0.102s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/config/zed2.yaml
+[0.102s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/config/zed2i.yaml
+[0.102s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/config/common.yaml
+[0.102s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/config/zedx.yaml
+[0.102s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/config/zedm.yaml
+[0.102s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/config/zedxm.yaml
+[0.102s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/urdf
+[0.102s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/urdf/zed_descr.urdf.xacro
+[0.102s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/urdf/include
+[0.102s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/urdf/include/materials.urdf.xacro
+[0.103s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/urdf/zed_macro.urdf.xacro
+[0.103s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/launch
+[0.103s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/launch/obsolete
+[0.103s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zed2.launch.py
+[0.103s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zedxm.launch.py
+[0.103s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zedm.launch.py
+[0.103s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zed.launch.py
+[0.103s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zedx.launch.py
+[0.103s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zed2i.launch.py
+[0.103s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/launch/zed_camera.launch.py
+[0.103s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/ament_index/resource_index/package_run_dependencies/zed_wrapper
+[0.103s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/ament_index/resource_index/parent_prefix_path/zed_wrapper
+[0.103s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.sh
+[0.103s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.dsv
+[0.104s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/environment/path.sh
+[0.104s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/environment/path.dsv
+[0.104s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/local_setup.bash
+[0.104s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/local_setup.sh
+[0.104s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/local_setup.zsh
+[0.104s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/local_setup.dsv
+[0.104s] -- Installing: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/package.dsv
+[0.104s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/ament_index/resource_index/packages/zed_wrapper
+[0.104s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig.cmake
+[0.104s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake
+[0.104s] -- Up-to-date: /home/yanwen/fyp_ws_v3/install/zed_wrapper/share/zed_wrapper/package.xml
+[0.106s] Invoked command in '/home/yanwen/fyp_ws_v3/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/home/yanwen/fyp_ws_v3/install/zed_components:/home/yanwen/fyp_ws_v3/install/zed_interfaces:/home/yanwen/fyp_ws_v3/install/zed_ros2:/home/yanwen/fyp_ws_v3/install/zed_wrapper:/home/yanwen/fyp_ws_v3/install/moveit_script:/home/yanwen/fyp_ws_v3/install/gripper_client:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_interfaces:/home/yanwen/fyp_ws_v3/install/obj_detect_test:/home/yanwen/fyp_ws_v3/install/robotiq_3f_gripper_ros2_control:/home/yanwen/fyp_ws_v3/install/cv_ros2_test:/opt/ros/humble /usr/bin/cmake --install /home/yanwen/fyp_ws_v3/build/zed_wrapper

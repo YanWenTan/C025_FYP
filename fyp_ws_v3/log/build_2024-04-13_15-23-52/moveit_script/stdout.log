@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_script[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_script.dir/src/moveit_script.cpp.o[0m
+[100%] [32m[1mLinking CXX executable moveit_script[0m
+[100%] Built target moveit_script
+-- Install configuration: ""
+-- Installing: /home/yanwen/fyp_ws_v3/install/moveit_script/lib/moveit_script/moveit_script
+-- Set runtime path of "/home/yanwen/fyp_ws_v3/install/moveit_script/lib/moveit_script/moveit_script" to ""
+-- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/launch
+-- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/launch/setup_init.launch.py
+-- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/launch/moveit.launch.py
+-- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/launch/obj_detection.launch.py
+-- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/ament_index/resource_index/package_run_dependencies/moveit_script
+-- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/ament_index/resource_index/parent_prefix_path/moveit_script
+-- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/environment/path.sh
+-- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/environment/path.dsv
+-- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/local_setup.bash
+-- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/local_setup.sh
+-- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/local_setup.zsh
+-- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/local_setup.dsv
+-- Installing: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/package.dsv
+-- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/ament_index/resource_index/packages/moveit_script
+-- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/cmake/moveit_scriptConfig.cmake
+-- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/cmake/moveit_scriptConfig-version.cmake
+-- Up-to-date: /home/yanwen/fyp_ws_v3/install/moveit_script/share/moveit_script/package.xml

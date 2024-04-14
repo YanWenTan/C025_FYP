@@ -1,0 +1,14 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_script.dir/src/moveit_script.cpp.o[0m
+[01m[K/home/yanwen/fyp_ws_v3/src/moveit_script/src/moveit_script.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const PoseStamped&) const[m[K’:
+[01m[K/home/yanwen/fyp_ws_v3/src/moveit_script/src/moveit_script.cpp:37:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kobj_pose[m[K’
+   37 |   if (obj_pose.pose.position.x < 0.6 [01;31m[Kobj_pose[m[K.pose.position.z < 0.5 and obj_pose.pose.position.z != NULL)
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yanwen/fyp_ws_v3/src/moveit_script/src/moveit_script.cpp:37:6:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   37 |   if [01;36m[K([m[Kobj_pose.pose.position.x < 0.6 obj_pose.pose.position.z < 0.5 and obj_pose.pose.position.z != NULL)
+      |      [01;36m[K^[m[K
+[01m[K/home/yanwen/fyp_ws_v3/src/moveit_script/src/moveit_script.cpp:126:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KmoveJ_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  126 |       auto [01;35m[KmoveJ_time[m[K = plan_traj.getDuration(); //Get Trajectory Time
+      |            [01;35m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_script.dir/build.make:76: CMakeFiles/moveit_script.dir/src/moveit_script.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moveit_script.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,10 @@
+/home/yanwen/fyp_ws_v3/build/gripper_client/CMakeFiles/uninstall.dir
+/home/yanwen/fyp_ws_v3/build/gripper_client/CMakeFiles/gripper_client_uninstall.dir
+/home/yanwen/fyp_ws_v3/build/gripper_client/CMakeFiles/client.dir
+/home/yanwen/fyp_ws_v3/build/gripper_client/CMakeFiles/test.dir
+/home/yanwen/fyp_ws_v3/build/gripper_client/CMakeFiles/edit_cache.dir
+/home/yanwen/fyp_ws_v3/build/gripper_client/CMakeFiles/rebuild_cache.dir
+/home/yanwen/fyp_ws_v3/build/gripper_client/CMakeFiles/list_install_components.dir
+/home/yanwen/fyp_ws_v3/build/gripper_client/CMakeFiles/install.dir
+/home/yanwen/fyp_ws_v3/build/gripper_client/CMakeFiles/install/local.dir
+/home/yanwen/fyp_ws_v3/build/gripper_client/CMakeFiles/install/strip.dir

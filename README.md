@@ -82,3 +82,8 @@ wrist_2_joint
 wrist_3_joint
     max_position: !degrees  189
     min_position: !degrees -189
+```
+### Static/Dynamic Modes
+Both static and dynamic nodes can be found in the `moveit_script.cpp` file found in the file path `fyp_ws_v3/src/moveit_script/src/moveit_script.cpp`.
+
+To enable dynamic grasping, lines 131 to 155 must be uncommented while lines 158 to 175 must be commented and vice versa.

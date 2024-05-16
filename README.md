@@ -86,4 +86,18 @@ wrist_3_joint
 ### Static/Dynamic Modes
 Both static and dynamic nodes can be found in the `moveit_script.cpp` file found in the file path `fyp_ws_v3/src/moveit_script/src/moveit_script.cpp`.
 
-To enable dynamic grasping, lines 131 to 155 must be uncommented while lines 158 to 175 must be commented and vice versa.
+To enable dynamic grasping, lines 131 to 155 must be uncommented while lines 158 to 175 must be commented and vice versa for static grasping.
+
+### GitHub Links for ROS2 packages used in project
+Universal_Robots_ROS2_Driver from UniversalRobots:
+```
+https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver
+```
+zed-ros2-wrapper from stereolabs:
+```
+https://github.com/stereolabs/zed-ros2-wrapper
+```
+robotiq_3f_gripper_ros2_stack from andreasHovaldt:
+```
+https://github.com/andreasHovaldt/robotiq_3f_gripper_ros2_stack
+```
